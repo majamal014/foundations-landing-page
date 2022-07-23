@@ -6,7 +6,7 @@
 
 #section-1 {
     background-color: #1F2937;
-    padding: 10px 200px 100px;
+    padding: 10px 200px 75px;
 }
 
 #section-1 nav {
@@ -30,12 +30,12 @@
 }
 
 #section-1 .content {
-    margin: 70px 0;
+    margin: 70px 0; 
 }
 
 #section-1 h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -47,16 +47,23 @@
 #section-1 .content .img {
     height: 200px;
     width: 50%;
-    background-color: red;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    width: 40%;
+    flex: 0 1 auto;
+}
+
+#hero-text h1, #hero-text p, #hero-text button {
+    margin-bottom: 10px;    
 }
 
 #hero-text button {
-    width: 50px;
-    flex: 0 1 auto;
+    background-color: #3882FC;
+    color: #F9FAF8;
+    padding: 10px 20px;
 }
