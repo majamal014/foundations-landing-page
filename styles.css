@@ -32,9 +32,31 @@
 #section-1 .content {
     margin: 70px 0;
 }
+
 #section-1 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
+#section-1 .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-1 .content .img {
+    height: 200px;
+    width: 50%;
+    background-color: red;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#hero-text button {
+    width: 50px;
+    flex: 0 1 auto;
+}
