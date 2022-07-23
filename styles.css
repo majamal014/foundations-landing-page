@@ -6,6 +6,17 @@
 
 #section-1 {
     background-color: #1F2937;
+    padding: 10px 200px 100px;
+}
+
+#section-1 nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-1 nav div {
+    display: flex;
+    gap: 40px;
 }
 
 #section-1 nav p, #section-1 p {
@@ -18,8 +29,12 @@
     color: #F9FAF8
 }
 
+#section-1 .content {
+    margin: 70px 0;
+}
 #section-1 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
