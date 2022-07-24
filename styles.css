@@ -63,13 +63,13 @@
 }
 
 #hero-text button {
-    background-color: #3882FC;
+    background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 20px;
 }
 
 #section-2 {
-    padding: 30px 400px;
+    padding: 30px 400px 125px;
 }
 
 #section-2 h1 {
@@ -86,7 +86,7 @@
 }
 
 #section-2 .info-box {
-    border: 5px solid #3882FC;
+    border: 5px solid #3882F6;
     border-radius: 20px;
     height: 200px;
 }
@@ -110,4 +110,14 @@
 #section-3 #quote {
     text-align: center;
     font-weight: normal;
+}
+
+#section-4 {
+    padding: 100px 200px;
+}
+
+#section-4 #call-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 100px;
 }
