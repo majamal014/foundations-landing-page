@@ -113,11 +113,26 @@
 }
 
 #section-4 {
-    padding: 100px 200px;
+    padding: 100px 310px;
 }
 
 #section-4 #call-container {
     background-color: #3882F6;
+    border-radius: 10px;
     color: #F9FAF8;
-    padding: 50px 100px;
+    padding: 50px 170px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-4 #call-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    
 }
