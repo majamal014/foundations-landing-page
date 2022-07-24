@@ -6,7 +6,7 @@
 
 #section-1 {
     background-color: #1F2937;
-    padding: 10px 200px 75px;
+    padding: 15px 200px 75px;
 }
 
 #section-1 nav {
@@ -66,4 +66,31 @@
     background-color: #3882FC;
     color: #F9FAF8;
     padding: 10px 20px;
+}
+
+#section-2 {
+    padding: 30px 400px;
+}
+
+#section-2 h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+#section-2 #info-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#section-2 .info-box {
+    border: 5px solid #3882FC;
+    border-radius: 20px;
+    height: 200px;
+}
+
+#section-2 #info-box-container p {
+    text-align: center;
 }
