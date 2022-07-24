@@ -97,8 +97,17 @@
 
 #section-3 {
     background-color: #E5E7EB;
+    padding: 150px 400px;
 }
 
 #section-3 p {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: end;
+    font-weight: bold;
+}
+
+#section-3 #quote {
     text-align: center;
+    font-weight: normal;
 }
